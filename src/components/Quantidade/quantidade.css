@@ -25,6 +25,12 @@
     border-style: none;
 }
 
+.qtd-input.no-spin::-webkit-inner-spin-button,
+.qtd-input.no-spin::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .qtd-arrow {
     color: maroon;
 }

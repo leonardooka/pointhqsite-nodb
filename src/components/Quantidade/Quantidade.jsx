@@ -88,7 +88,8 @@ export default function Quantidade({ id, preço }) {
           ></i>
         </div>
         <input
-          className="qtd-input"
+          className="qtd-input no-spin"
+          type='number'
           onChange={handleChange}
           value={quantidade}
           maxLength={3}
