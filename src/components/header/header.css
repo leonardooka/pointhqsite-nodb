@@ -1,0 +1,85 @@
+#header-wrapper{
+    background-image: url('./comics.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    z-index: 0;
+}
+
+#head{
+    background-image: linear-gradient(to right, rgba(139, 0, 0, 0.945) 60%, rgba(139, 0, 0, 0));
+    z-index: 1;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+#logo-container {
+    display: flex;
+    gap: 5%;
+    max-height: 150px;
+}
+
+#logo-img {
+    display: flex;
+    align-items: center;
+    height: 175px;
+    padding: 10px 20px;
+}
+
+#logo-img img{
+    max-height: 145px;
+    height: 95%;
+}
+
+/* FONT-FAMILYS: Oswald, Nunito, Ubuntu, Kanit, Fira Sans, Outfit, Teko, Arquivo Black */
+#logo{
+    font-size: 700%;
+    font-family: 'Nunito';
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgba(128, 0, 0, 0) 30%, rgb(100, 0, 0))
+}
+
+#carrinho{
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+#carrinho:hover{
+    color:rgb(136, 255, 136);
+}
+
+#carrinho-aberto{
+    font-weight: 500;
+    color:rgb(136, 255, 136);
+    cursor: pointer;
+    margin-right: 15px;
+    text-shadow: 1px 1px 5px rgb(216, 255, 216);
+}
+
+#login{
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+#novo-produto, #nova-categoria, #login{
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#novo-produto:hover, #nova-categoria:hover, #login:hover{
+    color: rgb(136, 255, 136);
+}

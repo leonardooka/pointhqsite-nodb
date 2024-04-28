@@ -1,0 +1,24 @@
+#sidebar{
+    background-image: url('./grey-bg2.jpg');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.categoria{
+    margin-top: 10px;
+    background-color: #111111;
+    border-right: solid #4a4a4a 2px;
+    width: 15vw;
+    font-size: 30px;
+    font-variant: small-caps;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.categoria:hover{
+    color: rgb(96, 255, 96);
+    text-shadow: 1px 1px 5px rgb(216, 255, 216);
+}

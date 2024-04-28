@@ -1,0 +1,50 @@
+.qtd-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.qtd-produto-preco {
+    font-size: small;
+}
+.qtd-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px
+}
+
+.qtd-input {
+    width: 20px;
+    height: 15px;
+    background-color: rgb(101, 101, 101);
+    text-align: center;
+    vertical-align: baseline;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.qtd-arrow {
+    color: maroon;
+}
+
+.qtd-preco-total {
+    font-weight: 600;
+    min-width: 35%;
+}
+
+.qtd-excluir-btn {
+    max-width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.qtd-excluir-icon {
+    font-size: 12px;
+}
